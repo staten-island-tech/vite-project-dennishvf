@@ -1,0 +1,8 @@
+:root {
+ --dark-blue: #135cc6;
+ --orange: #ff7730;
+ --primary: var(var(--dark-blue));
+ --primary: var(--orange)
+ --h1: 7.594rem;
+ --h2: 5.063rem
+ 
