@@ -5,4 +5,19 @@
  --primary: var(--orange)
  --h1: 7.594rem;
  --h2: 5.063rem
- 
+}
+.dark{
+    --primary:(var(--orange));
+}
+.light{
+    --primary:(var(--dark-blue))
+}
+body{
+    background-color: var(--primary);
+}
+h1{
+    font-size: var(--h1);
+}
+.section-title{
+    font-size: var(--h1)
+}
