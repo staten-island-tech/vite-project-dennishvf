@@ -7,6 +7,6 @@ FlexContainer: document.querySelector(".flex-container"),
 ItemCard: document.querySelectorAll(".card"),
 ItemName: document.querySelectorAll(".card-title"),
 ItemImage: document.querySelectorAll(".card-img"),
-ItemDesc: docmunet.querySelectorAll(".card-price"),
+ItemDesc: document.querySelectorAll(".card-price"),
 }
 export {DOMselectors}
