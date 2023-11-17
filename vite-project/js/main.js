@@ -23,7 +23,8 @@ function MakeCards(Meal){
 }
 
 //Button work
-DOMselectors.ButtonForm.addEventListener("submit", (event) => {
+DOMselectors.
+Form.addEventListener("submit", (event) => {
     event.preventDefault()
     const Concard = Mealinfo()
     MakeCards(Concard)
