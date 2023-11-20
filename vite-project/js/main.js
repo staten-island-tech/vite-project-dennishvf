@@ -21,4 +21,6 @@ const Des = menu.filter((menu) => menu.Genre === "Dessert");
 DOMselectors.Form.addEventListener("submit", (event) => {
     event.preventDefault()
     
-})
+});
+DOMselectors.AppeButton.addEventListener("click", (event1) => console.log(Appe));
+DOMselectors.AppeButton.addEventListener("click", (event1) =>gd )

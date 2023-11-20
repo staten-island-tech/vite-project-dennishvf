@@ -21,6 +21,8 @@ h1{
 .section-title{
     font-size: var(--h1)
 }
+
+
 .flex-container {
     flex-wrap: wrap;
     display: flex;
