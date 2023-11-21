@@ -23,4 +23,5 @@ DOMselectors.Form.addEventListener("submit", (event) => {
     
 });
 DOMselectors.AppeButton.addEventListener("click", (event1) => console.log(Appe));
-DOMselectors.AppeButton.addEventListener("click", (event1) =>gd )
+DOMselectors.MCButton.addEventListener("click", (event1) => console.log(Main));
+DOMselectors.DessertButton.addEventListener("click", (event1) => console.log(Des));
