@@ -25,3 +25,4 @@ DOMselectors.Form.addEventListener("submit", (event) => {
 DOMselectors.AppeButton.addEventListener("click", (event1) => console.log(Appe));
 DOMselectors.MCButton.addEventListener("click", (event1) => console.log(Main));
 DOMselectors.DessertButton.addEventListener("click", (event1) => console.log(Des));
+DOMselectors.AppeButton.addEventListener("click", (event2) => ".flex-container".innerhtml= "")
