@@ -15,7 +15,6 @@ function Insert(arr){
     
 }
 Insert(menu)
-//information for each page
 
 //Button work
 DOMselectors.Form.addEventListener("submit", (event) => {

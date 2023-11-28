@@ -1,25 +1,17 @@
 :root {
- --dark-blue: #135cc6;
- --orange: #ff7730;
- --primary: var(var(--dark-blue));
- --primary: var(--orange)
- --h1: 7.594rem;
- --h2: 5.063rem
+ --Dark-Blue: #135cc6;
+ --Orange: #ff7730;
+ --Black: #050403;
+ --Purple: #7736e0;
 }
 .dark{
-    --primary:(var(--orange));
+    --primary:(var(--Black));
 }
 .light{
     --primary:(var(--dark-blue))
 }
-body{
-    background-color: var(--primary);
-}
-h1{
-    font-size: var(--h1);
-}
-.section-title{
-    font-size: var(--h1)
+.Night{
+    --primary:(var(var(--Purple)))
 }
 
 
