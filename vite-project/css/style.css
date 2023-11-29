@@ -1,17 +1,19 @@
 :root {
- --Dark-Blue: #135cc6;
- --Orange: #ff7730;
- --Black: #050403;
  --Purple: #7736e0;
+ --Violet: #8b58de;
+ --Brown: #6e4008;
+ --Wood: #ac6e039b;
+
+ --Primary: var(--Brown);
+ --Secondary: var(--Wood);
 }
-.dark{
-    --primary:(var(--Black));
-}
-.light{
-    --primary:(var(--dark-blue))
+.Cozy{
+    --Primary: var(--Brown);
+    --Secondary: var(--Wood);
 }
 .Night{
-    --primary:(var(var(--Purple)))
+    --Primary: var(--Purple);
+    --Secondary: var(--Violet);
 }
 
 

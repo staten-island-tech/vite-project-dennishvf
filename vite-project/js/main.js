@@ -37,4 +37,14 @@ DOMselectors.DessertButton.addEventListener("click",function(){
     const Des = menu.filter((menu) => menu.Genre === "Dessert");
     Insert(Des)
 });
+//Theme button
+document.getElementById("Themeb").addEventListener("click", function(){
+    if(document.body.classList.contains("Cozy")){
+        document.body.classList.add("Night");
+        document.body.classList.remove("Cozy");}
+        else {
+            document.body.classList.add("Cozy");
+            document.body.classList.remove("Night");}
+        });
+
 
