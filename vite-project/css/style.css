@@ -34,7 +34,7 @@
         margin: 12px 12px 12px;
         border-radius: 15px;
         box-shadow: 7px 7px 7px 7px;
-        background-color: burlywood;
+        background-color: var(--Primary);
     }
     
     .card-img {
