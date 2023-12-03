@@ -16,7 +16,6 @@
     --Secondary: var(--Violet);
 }
 
-
 .flex-container {
     flex-wrap: wrap;
     display: flex;
@@ -34,7 +33,7 @@
         margin: 12px 12px 12px;
         border-radius: 15px;
         box-shadow: 7px 7px 7px 7px;
-        background-color: var(--Primary);
+        background-color: var(--Secondary);
     }
     
     .card-img {
