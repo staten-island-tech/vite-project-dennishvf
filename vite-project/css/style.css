@@ -1,8 +1,8 @@
 :root {
- --Purple: #7736e0;
- --Violet: #8b58de;
+ --Black: #050209;
+ --Violet: #ab83ea;
  --Brown: #6e4008;
- --Wood: #ac6e039b;
+ --Wood: #ed9e149b;
 
  --Primary: var(--Brown);
  --Secondary: var(--Wood);
@@ -12,8 +12,25 @@
     --Secondary: var(--Wood);
 }
 .Night{
-    --Primary: var(--Purple);
+    --Primary: var(--Black);
     --Secondary: var(--Violet);
+}
+#ButtonForm{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: x-large;
+
+}
+.body{
+    background-color: var(--Primary);
 }
 
 .flex-container {
@@ -39,7 +56,7 @@
     .card-img {
         width: 80%;
         height: 80%;
-        width: 20vw;
+        width: 18vw;
         height: 280px;
         object-fit: cover;
       }
